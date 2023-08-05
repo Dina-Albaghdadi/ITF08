@@ -59,5 +59,5 @@
 #     age = 2023 - int(year_of_birth)
 #     print(age)
 # calculate_age ()
-input("Enter your name")
+# input("Enter your name")
 
