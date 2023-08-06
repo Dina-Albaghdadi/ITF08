@@ -1,37 +1,44 @@
 def circle():
-        r = int(input("Enter the raduis:"))
-        area = r * r * 3.14
-        circle_area=area
-        perimeter =2*3.14*r
+        r = int(input("To calculate the area of the circle enter the raduis:"))
+        circle_area = r * r * 3.14
         print(circle_area)
-        print(perimeter)
+
+        if circle_area >= 10:
+            print("big")
+        elif circle_area<10 and circle_area>0:
+            print("small")
+        else:
+            print("Invalid inputs")
 
 
 def Triangle():
-        base = int(input("Enter the base:"))
-        height = int(input("Enter the height:"))
-        side = int(input("Enter the side of the triangle:"))
-        area = 0.5 * base * height
-        Triangle_area=area
-        perimeter = side * 3  # محيط مثلث متساوي الأضلاع
+        base = int(input("To calculate the area of the triangle enter the base:"))
+        height = int(input("And enter the height:"))
+        Triangle_area= 0.5 * base * height
         print(Triangle_area)
-        print(perimeter)
+
+        if Triangle_area >= 10:
+            print("big")
+        elif Triangle_area<10 and Triangle_area>0:
+            print("small")
+        else:
+            print("Invalid inputs")
+
 
 def rectangular():
-        length = int(input("Enter the length:"))
-        width = int(input("Enter the width:"))
-        area=length*width
-        rectangular_area=area
+        length = int(input("To calculate the area of the rectangular enter the length:"))
+        width = int(input("And enter the width:"))
+        rectangular_area=length*width
         print(rectangular_area)
 
 
 
-        if area >= 10:
+        if rectangular_area >= 10:
             print("big")
-        elif area<10 and area>0:
+        elif rectangular_area<10 and rectangular_area>0:
             print("small")
         else:
-            print("invalid input")
+            print("Invalid inputs")
 
 
 circle()
