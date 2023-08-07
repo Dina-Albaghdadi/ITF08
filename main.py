@@ -60,4 +60,20 @@
 #     print(age)
 # calculate_age ()
 # input("Enter your name")
-
+# x=25.0
+# x=str(x)
+# print(type(x))
+# print("Hello world")
+#
+# x=20
+# if x==20:
+# print ("yes")
+# print("continue")
+# Name="Ali"
+# name='ali'
+# print(Name)
+# print(name)
+# print(type(Name))
+# print(type(name))
+# age= input("Enter your ade:")
+# print as
