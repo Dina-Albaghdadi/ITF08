@@ -68,4 +68,5 @@ while True:
         rectangular()
 
     elif selection == 8:
+        print("Bye")
         exit()
