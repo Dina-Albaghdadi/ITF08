@@ -1,6 +1,6 @@
 def circle():
     r = int(input("To calculate the area of the circle enter the radius:"))
-    circle_area = r * r * 3.14
+    circle_area = r*r * 3.14
     print(circle_area)
 
     if circle_area >= 10:
