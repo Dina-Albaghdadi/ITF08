@@ -77,3 +77,116 @@
 # print(type(name))
 # age= input("Enter your ade:")
 # print as
+# n = int(input("Enter a number between 1 and 100 :"))
+# if n>=1 and n<=100:
+#     if n%2 != 0:
+#         print("weird")
+#     elif n%2 == 0:
+#         if n>=2 and n<5 :
+#             print("not weird")
+#         elif n>=6 and n<=20 :
+#             print("weird")
+#         elif n>20:
+#             print("not weird")
+# else:
+#     print("Invalid Input")
+# def leap_year ():
+#     year = int(input("Enter the year:"))
+#     if year%4 == 0 :
+#         print("True")
+#     else:
+#         print("False")
+# leap_year()
+# a = int(input("Enter the first number:"))
+# b= int(input("Enter the second number:"))
+# x = int(a/b)
+# z = float(a/b)
+# print(x)
+# print(z)
+# n = int(input("Enter a number:"))
+# for i in range (0,n+1):
+#     print(i**2)
+# a = 25
+# if a < 15:
+#     print("Hi")
+# if a<=30:
+#     print("Hello")
+# else:
+#     print("know program")
+# n = int(input("Enter a number:"))
+# for i in range (1,n+1):
+#     print(i,end='')
+# for n in range(12,33):
+# if n>=12 and n<=33:
+#     if n%2 ==0:
+#         print
+# sum = 0
+# for i in range (12,38):
+#     if i%2==0:
+#    sum+= i
+#       print (sum)
+# else:
+#     sum += i
+#          print (sum)
+# for i in range(1,21):
+#     if i%2 == 0 and i%3 == 0:
+#         continue
+#     print(i)
+# n = int(input("Enter a number:"))
+# for i in range(0,13):
+#     print(f"{n}*{i}={n*i}")
+# def sum ():
+#     n1 = int(input("Enter the first number:"))
+#     n2 = int(input("Enter the first number:"))
+#     sum = n1+ n2
+#     if sum >10 and sum<20:
+#         print(10)
+#     else:
+#         print(sum)
+# sum()
+# for num in range (10,21):
+#     print(10)
+#
+# def hello():
+#     n1 = int(input("Enter the first number:"))
+#     n2 = int(input("Enter the first number:"))
+#     if n1 != n2 or (n1+n2) ==7 or abs(n1-n2) == 6:
+#         print("True")
+#     else:
+#         print("Try again")
+#         exit()
+# hello()
+
+# import calendar
+# year = int(input("Input the year : "))
+# month = int(input("Input the month : "))
+# print(calendar.month(year,month))
+# def sum(n1,n2,n3):
+#     return n1 + n2 + n3
+# sum = (n1,n1,n3)
+# if n1 ==n2 and n2 == n3:
+#     for i in range(0,3):
+#         print(sum)
+#     else:
+#         print(sum)
+# def sum():
+#     n1 = int(input("Enter the first number:"))
+#     n2= int(input("Enter the second number:"))
+#     n3 = int(input("Enter the third number:"))
+#     sum = n1 + n2 + n3
+#     if n1 == n2 and n2 == n3:
+#         print(n1*3)
+#     else:
+#         print(sum)
+# sum()
+# n1 = int(input("Enter the first number:"))
+# n2= int(input("Enter the second number:"))
+# n3 = int(input("Enter the third number:"))
+# def sum (n1,n2,n3):
+#     return n1+n2+n3
+# total = sum (n1,n2,n3)
+# print(total)
+
+
+
+
