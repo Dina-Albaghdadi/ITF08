@@ -44,3 +44,25 @@ def rectangular():
 circle()
 triangle()
 rectangular()
+#
+# #مثال على طريقة حل المهندس
+# def add(n1 , n2):
+#     sum = n1+n2
+#     print(f"{n1}+{n2}=", sum)
+#
+#
+# while True:
+#     selection = int(input("""1. Sum
+# 2. Subtract
+# 3. Multiply
+# 4. Division
+# 5. Calculate triangle area
+# 6. Calculate circle area
+# 7. Calculate rectangle area
+# 8. Exit"""))
+#     if selection == 1:
+#         n1 = int(input("Enter number one"))
+#         n2 = int(input("Enter number two"))
+#     elif selection == 8:
+#         exit()
+# add(n1=n1,n2=n2)
