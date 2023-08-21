@@ -24,30 +24,22 @@ while True:
                 print(i)
                 break
     elif selection == 3:
-        print("3")
         product_number = input("Enter Product Number :")
-        product_qty = int(input("Enter Product Quantity :"))
-        product_number = input("Enter The new Product Number :")
-        product = {
-            "id": product_number,
-            "qty": product_qty,
-            "new":product_number
-        }
-        products.append(product)
-        print("Product updated Successfully")
-        # TODO :: input Product Number
-        # TODO :: input Quantity as integer
-        # TODO :: update quantity after purchase
+        for i in products:
+            if i['id'] == product_number:
+                while True:
+                        qty = int(input("Enter Product qty :"))
+                        if qty > i["qty"] or qty <=0:
+                            print("Invalid Input")
+                        else:
+                            break
+                i["qty"] = i["qty"] - qty
+                break
     elif selection == 4:
         product_number = input("Enter Product Number :")
-        product = {
-            "id": product_number
-        }
-        products.append(product)
-        print("Product updated Successfully")
-
-        # TODO :: input Product Number
-        # TODO :: delete Product
-        print(4)
+        for i in products[:]:
+            if i['id'] == product_number:
+                products.remove(i)
+                break
     else:
         exit()
