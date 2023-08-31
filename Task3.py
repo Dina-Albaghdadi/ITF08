@@ -1,14 +1,6 @@
-Name=input("Enter your name:")
+Name = input("Enter your name:")
 print(Name)
-age=input("Enter your age:")
+age = input("Enter your age:")
 print(age)
-BD=input("Enter your Birthdate:")
-print(BD)
-
-
-
-
-
-
-
-
+BD = input("Enter your Birthdate:")
+print("your birthdate is",BD)
